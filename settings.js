@@ -28,7 +28,7 @@ function checkForUpdates(){
 }
 
 function bios(){
-  window.open('https://biosgws.operatingsyste.repl.co'); 
+  window.open('https://operatingsyste.github.io/BIOSGWS/'); 
 }
 
 function Sboot(){
@@ -36,7 +36,7 @@ function Sboot(){
 }
 
 function reboot(){
-  window.open('https://gws4.operatingsyste.repl.co');
+  window.open('index.html');
 }
 
 function framesTasking(){
