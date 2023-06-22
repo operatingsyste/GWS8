@@ -1,0 +1,97 @@
+body {
+    font-size: 15pt;
+    background-color: rgb(0, 0, 30);
+    color: white;
+    text-shadow: 5px 5px 10px white;
+    margin: 0px;
+    user-select: none;
+}
+.h{
+  background-color: darkblue;
+  color: white;
+  text-shadow: 5px 5px 10px white;
+  font-weight: bold;
+  box-shadow: 5px 5px 10px skyblue;
+  padding: 50px;
+  text-align: center;
+}
+.s:hover{
+  border: 5px solid darkblue;
+    box-shadow: 10px 10px 20px darkblue;
+}
+
+.s{
+  border: 5px solid lawngreen;
+  border-radius: 500px;
+  padding: 10px;
+  animation-name: text-anm;
+  animation-duration: 2s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  font-weight: bold;
+      box-shadow: 5px 5px 10px lawngreen;
+}
+@keyframes text-anm{
+  10%{
+    color: red;
+    text-shadow: 5px 5px 10px red;
+  }
+  20%{
+    color: orangered;
+    text-shadow: 5px 5px 10px orangered;
+  }
+  30%{
+    color: orange;
+    text-shadow: 5px 5px 10px orange;
+  }
+  40%{
+    color: yellow;
+    text-shadow: 5px 5px 10px yellow;
+  }
+  50%{
+    color: yellowgreen;
+    text-shadow: 5px 5px 10px yellowgreen;
+  }
+  60%{
+    color: lawngreen;
+    text-shadow: 5px 5px 10px lawngreen;
+  }
+  70%{
+    color: green;
+    text-shadow: 5px 5px 10px green;
+  }
+  80%{
+    color: skyblue;
+    text-shadow: 5px 5px 10px skyblue;
+  }
+  90%{
+    color: blue;
+        text-shadow: 5px 5px 10px blue;
+
+  }
+  100%{
+    color: darkblue;
+        text-shadow: 5px 5px 10px darkblue;
+
+  }
+}
+.btn{
+  background-color: red;
+  color: white;
+  border: 5px solid red;
+  text-shadow: 5px 5px 10px white;
+  border-radius: 10000px;
+  height: 50px;
+  width: 50px;
+  box-shadow: 5px 5px 10px red;
+}
+.btn:hover{
+  background-color: lawngreen;
+  color: white;
+  border: 5px solid lawngreen;
+  text-shadow: 5px 5px 10px white;
+  border-radius: 10000px;
+  height: 50px;
+  width: 50px;
+  box-shadow: 5px 5px 10px lawngreen;
+}

@@ -1,0 +1,33 @@
+@font-face {
+  font-family: 'con';
+  src: url("PixeloidMono-VGj6x.ttf");
+}
+
+body{
+  background-color: black;
+  color: white;
+  font-family: 'con', sans-serif;
+}
+
+input{
+  width: 10px;
+  color: white;
+  font-family: 'con';
+  background-color: transparent;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-left-color: transparent;
+  border-bottom: 20px solid white;
+  animation-name: anm;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes anm{
+  from{
+    border-bottom: 0px solid white;
+  }
+  to{
+    border-bottom: 2px solid white;
+  }
+}

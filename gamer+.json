@@ -1,0 +1,12 @@
+{
+  "name" : "gamer+",
+  "type" : "application-software",
+  "os-support" : "gws",
+  "app-data" : {
+    "config" : [
+      0,"p", 2
+    ],
+    "version" : [0,0,1],
+    "developer" : "@ghgltggamer"
+  }
+}

@@ -1,0 +1,43 @@
+body {
+  background-image: linear-gradient(to left, red, black, black, black, black, black, black, red);
+  background-attachment: fixed;
+  color: black;
+  user-select: none;
+  text-shadow: 0px 0px 5px white;
+  font-family: arial;
+}
+.text01{
+  font-size: 50px;
+}
+.align{
+  align-items: center;
+}
+.margin01{
+  margin-top: 300px;
+}
+.ball-spin{
+  height: 40px;
+  width: 40px;
+  background-color: transparent;
+  border: 5px solid transparent;
+  border-radius: 1000px;
+  animation-name: ball-spin-01;
+  animation-duration: 2s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  box-shadow: 0px 0px 10px red;
+}
+
+@keyframes ball-spin-01{
+  from{
+    
+  }
+  to{
+    transform: translateY(-60px);
+    background-color: black;
+      border: 5px solid black;
+  }
+}
+.margin02{
+  margin-top: 200px;
+}
