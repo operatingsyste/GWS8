@@ -54,5 +54,5 @@ function fps120(){
 }
 
 function reins(){
-  window.open("https://operatingsyste.github.io/SETUPGWS8/");
+  window.open("https://operatingsyste.github.io/GWS8SETUP/");
 }
