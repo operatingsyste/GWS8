@@ -23,7 +23,13 @@ function checkForUpdates(){
   document.getElementById('h1').innerHTML = 'Checking...';
   setTimeout(function(){
     document.getElementById('h1').innerHTML = ' ';
-    alert('OS already has latest version');
+    var promp = confirm("Update available GWS9 . Do you want to update");
+    if (promp){
+document.getElementById("yut").click();
+    }
+    else {
+alert("Update cancelled by you")
+    }
   }, 2000);
 }
 
